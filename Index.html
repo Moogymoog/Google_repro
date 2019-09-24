@@ -1,0 +1,295 @@
+<!doctype html>
+<html>
+<head>
+<title>Google</title>
+<meta charset="UTF-8" />
+<style> 
+#menu
+{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    display: flex;   
+    color: rgba(0,0,0,0.87);
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle; 
+}
+.item1
+{
+color:rgb(95, 99, 104);
+cursor:pointer;
+display:inline-block;
+font-family:arial, sans-serif;
+font-size:13px;
+line-height:40px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+padding-left:27px;
+text-decoration-color:rgb(95, 99, 104);
+text-decoration-line:none;
+text-decoration-style:solid;
+visibility:visible;
+white-space:nowrap;
+text-align: left;
+}
+
+.item2
+{
+color:rgb(95, 99, 104);
+cursor:pointer;
+display:inline-block;
+font-family:arial, sans-serif;
+font-size:13px;
+line-height:40px;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+padding-left:27px;
+text-decoration-color:rgb(95, 99, 104);
+text-decoration-line:none;
+text-decoration-style:solid;
+visibility:visible;
+white-space:nowrap;
+text-align:right;
+}
+    
+#google
+{
+    
+    text-align: center;
+}
+
+#boutons
+{
+    display: flex;
+    justify-content: center;
+}
+
+#footer
+{
+    position: absolute;
+    bottom: 0%;
+    color:rgb(34, 34, 34);
+display:block;
+font-family:arial, sans-serif;
+font-size:13px;
+height:81px;
+line-height:40px;
+margin-left:-27px;
+visibility:visible;
+width:1166px;
+
+}
+
+.layer1
+{
+    display: flex;
+    flex-flow: row;
+    color:rgba(0, 0, 0, 0.54);
+display:block;
+font-family:arial, sans-serif;
+font-size:13px;
+height:40px;
+line-height:40px;
+margin-left:30px;
+padding-left:27px;
+text-align:left;
+visibility:visible;
+width:1109px;
+}
+
+#logo 
+{
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#barrederecherche
+{
+    width: 50%;
+    background:#fff;
+    display:flex;
+    border-radius:8px;
+    border:1px solid #dfe1e5;
+    box-shadow:none;
+    border-radius:24px;
+    z-index:3;
+    height:44px;
+    margin:0 auto;
+    width:482px;
+    margin-top:8%;
+}
+
+.bouton
+{
+    margin-top: 30px;
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center
+}
+
+.app
+{
+background-image:url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+background-position-x:-132px;
+background-position-y:-38px;
+background-size:528px 68px;
+border-bottom-left-radius:2px;
+border-bottom-right-radius:2px;
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+box-sizing:border-box;
+color:rgb(0, 0, 0);
+cursor:pointer;
+display:inline-block;
+font-family:arial, sans-serif;
+font-size:13px;
+height:30px;
+line-height:normal;
+opacity:0.55;
+outline-color:rgb(0, 0, 0);
+outline-style:none;
+outline-width:0px;
+text-align:left;
+text-decoration-color:rgb(0, 0, 0);
+text-decoration-line:none;
+text-decoration-style:solid;
+user-select:none;
+vertical-align:middle;
+white-space:nowrap;
+width:30px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.connexion
+{
+background-attachment:scroll;
+background-clip:border-box;
+background-color:rgba(0, 0, 0, 0);
+background-image:-webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+background-origin:padding-box;
+background-position-x:0%;
+background-position-y:0%;
+background-repeat-x:;
+background-repeat-y:;
+background-size:auto;
+border-bottom-color:rgb(66, 133, 244);
+border-bottom-left-radius:2px;
+border-bottom-right-radius:2px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(66, 133, 244);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(66, 133, 244);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(66, 133, 244);
+border-top-left-radius:2px;
+border-top-right-radius:2px;
+border-top-style:solid;
+border-top-width:1px;
+color:rgb(255, 255, 255);
+cursor:default;
+display:inline-block;
+filter:none;
+font-family:arial, sans-serif;
+font-size:13px;
+font-weight:700;
+height:28px;
+line-height:28px;
+outline-color:rgb(255, 255, 255);
+outline-style:none;
+outline-width:0px;
+padding-bottom:0px;
+padding-left:12px;
+padding-right:12px;
+padding-top:0px;
+text-align:left;
+text-decoration-color:rgb(255, 255, 255);
+text-decoration-line:none;
+text-decoration-style:solid;
+user-select:none;
+white-space:nowrap;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.item
+{
+    margin-left: 10px;
+margin-right: 10px; 
+text-align:center;
+vertical-align: middle;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+<nav>
+	<div id="menu">
+	  <div class="item">Gmail</div> 
+	  <div class="item">Images</div>
+	  <div class="app"></div>
+	  <div class="connexion">Connexion</div>
+  	</div>
+</nav>
+</header>
+<section>
+<div id="google">
+    <div id="logo">
+        <img src="logo.png" />
+    </div>
+            <form>
+                <input id="barrederecherche" type="text" name="rechercher">
+            </form>
+    </div>
+    <div id="boutons">
+            <input class="bouton" id="recherchegoogle" type="submit" value="Recherche Google" aria-label="Recherche Google"> 
+            <input class="bouton" id="jaidelachance" type="submit" value="J'ai de la chance" aria-label="J'ai de la chance">
+    </div>
+</div>
+<footer>
+<div id="footer">
+	  <div class="layer1"> France </div> 
+	  <div class="layer2">
+	  	<div class="item1">Infos consommateurs</div> 
+	  	<div class="item1">Confidentialité</div>
+	  	<div class="item1">Conditions</div>
+	  	<div class="item1">Paramètres</div>
+	  	<div class="item2">Publicité</div> 
+	  	<div class="item2">Entreprise</div>
+	  	<div class="item2">A propos</div>
+	  	<div class="item2">Comment fonctionne la recherche Google ?</div>
+      </div>
+</div>
+</footer>
+</body>
+</html>
